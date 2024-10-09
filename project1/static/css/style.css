@@ -1,0 +1,10 @@
+h1{
+  color:rgb(8, 84, 84)
+}
+h3{
+  color:rgb(66, 31, 5)
+}
+body{
+  background-image: url(static\images\tollywood.jpg);
+  background-size: cover;
+}

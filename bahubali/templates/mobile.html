@@ -1,0 +1,14 @@
+<html>
+  <head>
+    <title>MOBILE</title>
+  </head>
+  <body>
+    {% for i in data %}
+    <h3> {{ forloop.counter }}.</h3>
+    <h3> NAME:{{ i.name }}</h3>
+    <h3> RAM:{{ i.ram }}</h3>
+    <h3>PRIZE: {{ i.prize }}</h3>
+    <br>
+    {% endfor %}
+  </body>
+</html>

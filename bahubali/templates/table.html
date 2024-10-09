@@ -1,0 +1,23 @@
+<html>
+<head>
+  <title>STUDENTS</title>
+</head>
+<body>
+  <table border="1">
+    <thead>
+      <td>sino</td>
+      <td>Name</td>
+      <td>branch</td>
+      <td>backlogs</td>
+    </thead>
+    {% for student in data %}
+    <tr>
+      <td>{{ forloop.counter }}</td>
+      {% for s in student %}
+        <td>name : {{ s }}</td>
+      {% endfor %}
+      </tr>
+    {% endfor %}
+  </table>
+</body>
+</html>
